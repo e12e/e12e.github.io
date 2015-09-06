@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Still just a test site.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Adding binary files to the repo requires interacting with git - for that
+I still prefer Mercurial. Note-to-self: In order to push to github,
+change the `git@github.com/<user>/<repo>` by adding protocol prefix
+`ssh+git://` - so that it becomes `ssh+git://<user>/<repo>`. Eg with:
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+`github = git+ssh://git@github.com:e12e/e12e.github.io.git` in the local
+repo `.hg/hgrc`-file, I can simply `hg push github` to update this repo.
