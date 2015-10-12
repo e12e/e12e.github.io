@@ -1,3 +1,10 @@
+# Sample static Jekyll site
+
+This is a simple static Jekyll site — hosted on github pages:
+https://e12e.github.io.
+
+More info on the upstream source, below.
+
 # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
